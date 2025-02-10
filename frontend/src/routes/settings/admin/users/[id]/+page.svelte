@@ -63,6 +63,17 @@
 </Card.Root>
 
 <CollapsibleCard
+		id="user-groups"
+		title="Group Memberships"
+		description="The list of groups this user is a member of."
+>
+<!--	<CustomClaimsInput bind:customClaims={user.customClaims} />-->
+	<div class="mt-5 flex justify-end">
+		<Button type="submit">Save</Button>
+	</div>
+</CollapsibleCard>
+
+<CollapsibleCard
 	id="user-custom-claims"
 	title="Custom Claims"
 	description="Custom claims are key-value pairs that can be used to store additional information about a user. These claims will be included in the ID token if the scope 'profile' is requested."
