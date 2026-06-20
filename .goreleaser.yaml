@@ -213,7 +213,7 @@ announce:
 
 release:
   github:
-    owner: pocket-id
+    owner: kmendell
     name: pocket-id
   disable: '{{ if index .Env "SKIP_RELEASE" }}true{{ end }}'
   draft: true
